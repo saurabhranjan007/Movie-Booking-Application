@@ -1,0 +1,27 @@
+.header{
+    background-color: #222;
+    height: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 16px;
+}
+
+@keyframes logoAnimation {
+    from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+  }
+  
+  /* The element to apply the animation to */
+ .logo{
+    height: 35px;
+    background-color: #ff7f7f;
+    animation-name: logoAnimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
